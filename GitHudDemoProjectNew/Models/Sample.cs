@@ -8,14 +8,19 @@ namespace GitHudDemoProjectNew.Models
 {
     public class Sample
     {
-        public int Add(int x,int y)
+        public int Add(int x, int y)
         {
             return x + y;
         }
 
-        public int Sub(int x,int y)
+        public int Sub(int x, int y)
         {
             return x - y;
+        }
+
+        public int Mul(int p, int q)
+        {
+            return p * q;
         }
     }
 }
